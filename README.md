@@ -1,6 +1,6 @@
 # Deep Reinforcement Learning for Stock Trading project
 
-<img src="Images/Main.jpeg" alt="Imágenes generadas por Dall-E 3" style="width:400px;height:400px;">
+<img src="Images/Main.jpeg" alt="Imágenes generadas por Dall-E 3" style="width:350px;height:350px;">
 
 > Imágenes generadas por Dall-E 3
 
@@ -67,7 +67,7 @@ The way to use the code provided in this repository is explained in the main.ipy
 ## Tests
 Las pruebas y los entrenamientos pueden monitorizarse en tensorboard. Algunos experimentos realizados por mí arrojaron resultados como los siguientes:
 
-<img src="Images/tensorboard_pic.jpeg" alt="ScreenShot" style="width:1023px;height:639px;">
+<img src="Images/tensorboard_pic.png" alt="ScreenShot" style="width:1023px;height:639px;">
 
 ## Possible next developments
 There exists significant potential for the expansion and enrichment of this project through the exploration of uncharted territories. One avenue for advancement involves the integration of alternative predictive models rooted in various architectures. Price predictions could be included in the dataset, enriching it and providing the DRL algorithm with more information for decision making. New indicators, perhaps non-technical, could also be added, such as risk or turbulence indices, market sentiment or social network analysis, etc. We can potentially capture more intricate patterns within the historical data, leading to more nuanced and accurate decision.
