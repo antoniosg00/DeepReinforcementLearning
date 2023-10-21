@@ -8,7 +8,7 @@
 
 Welcome to the Deep Reinforcement Learning (DRL) for Stock Trading project! This repository contains an implementation of a custom Proximal Policy Optimization (PPO) algorithm applied to stock trading using the Gymnasium environment and stable_baselines3 library. The goal of this project is to empower an intelligent agent to learn optimal investment strategies and increase net worth by dynamically managing the allocation of assets.
 
-All codes are thoroughly commented in Spanish. All the instructions provided in this README are explained in greater detail in the comments of the code.
+All the instructions provided in this README are explained in greater detail in the comments of the code.
 
 ## Table of contents
 - [Prerequisites](#Prerequisites)
