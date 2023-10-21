@@ -27,7 +27,7 @@ pip install matplotlib pandas numpy yfinance scikit-learn gymnasium stable-basel
 ### Data Extraction (module ETL.py):
 After obtaining historical financial data about our company (closing prices, opening prices, volume, etc.) using the Yahoo Finance API (yfinance), we calculate a series of technical indicators such as various simple and exponential moving averages or Fourier transforms of different components. The calculation methods can be seen in the methods of the classes in the ETL.py module.
 
-All data is stored in the form of Pandas DataFrames and then separated into the train, validation and test set. These same sets are also returned scaled in the range [0,1] through the MinMaxScaler function of scikit-learn.
+All data is stored in the form of Pandas DataFrames and then separated into the train, validation and test set. These same sets are also returned scaled in the range [0,1] through the MinMaxScaler function of scikit-learn. However, in the algorithm I have not used this scaled data because it causes me to divide by 0, which is not admissible. It is a future task to see how we can fit the scaled data into the neural networks of the algorithm to improve its convergence while avoiding problems such as those mentioned in Environment
 
 ### Environment (modules Environment.py and EnvironmentCustomReward.py)
 For the environment I have created two modules practically the same except for the reward function. While in Environment.py the reward function is very simple, based only on the difference in total equity (account balance plus value of shares held) of the current step and the previous step, in EnvironmentCustomReward.py a more complex reward is implemented including long term strategies or penalties.
